@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: mangal;
+}
+
+.container{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+img{
+    height:20rem;
+}
+.flag{
+    display: flex;
+}
+
+.desc{
+    display: flex;
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+p span{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.text{
+    margin-left: 5rem;
+}
+
+.desc2{
+    margin-left: 2rem;
+}
+
+.input-box{
+    height: 2.5rem;
+    width: 20rem;
+    margin-left:32rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+.input-box[placeholder*= "Type"]{
+ padding-left: 3rem;
+ font-size: 1.2rem;
+}
